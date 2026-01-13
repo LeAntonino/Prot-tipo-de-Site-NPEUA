@@ -3,9 +3,10 @@
 body{
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: yellow;
+    color: white;
     text-align: center;
 }
 p{
-    background-color: gray;
+    background-color: rgb(48, 44, 44);
+    
 }
