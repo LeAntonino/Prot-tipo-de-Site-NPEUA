@@ -1,12 +1,23 @@
 @charset "UTF-8";
 
+*{
+min-height: 100%;
+}
+
+/* Configurações do corpo */
+
 body{
-    background-color: black;
+    background-image: linear-gradient(to bottom, black, grey);
+    background-size: contain;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     text-align: center;
 }
+
+/* Configurações dos parágrafos */
+
 p{
     background-color: rgb(48, 44, 44);
+    display:inline-block;
 }
 
