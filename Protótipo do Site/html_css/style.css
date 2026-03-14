@@ -10,7 +10,7 @@ min-height: 100%;
 /* Configurações dos títulos h1 */
 
 h1{
-    font-size: 48px;
+    font-size: 32px;
 }
 
 /* Configurações do corpo */
@@ -21,6 +21,26 @@ body{
     font-family: 'Roboto';
     color: white;
     text-align: center;
+    margin: auto;
+}
+
+/* Configurações do Header */
+
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 100%;
+}
+
+/* Configurações da Navbar */
+
+nav{
+    background-color: rgb(255, 255, 255, 0.5);
+    margin: auto;
+    text-align: left;
+    background-size: contain;
+    width: 90%;
+    padding: 4px;
 }
 
 /* Configurações do main */
@@ -45,14 +65,15 @@ p{
 
 img{
     background-color: rgb(255, 255, 255, 0.5);
+    padding: 4px;
 }
 
 /* Configurações de hyperlinks de texto */
 
 .hypertexto{
-    background-color: rgb(255, 255, 255, 0.5);
     color:rgb(0, 0, 0);
     text-decoration: none;
+    margin-right: 16px;
 }
 .hypertexto:hover{
     color:rgb(0, 0, 0);
