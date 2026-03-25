@@ -7,6 +7,21 @@
 min-height: 100%;
 }
 
+
+
+/* Variáveis root */
+:root {
+
+/* Paleta de Cores */
+    --cor0: #000000;
+    --cor1: #9A031E;
+    --cor2: #EDD382;
+    --cor3: #5C6672;
+    --cor4: #8A817C;
+
+    --fonte-padrão: 'Roboto'
+}
+
 /* Configurações dos títulos h1 */
 
 h1{
@@ -16,7 +31,7 @@ h1{
 /* Configurações do corpo */
 
 body{
-    background-image: linear-gradient(to bottom, black, grey);
+    background-image: linear-gradient(to bottom, #000000 , #8A817C);
     background-size: contain;
     font-family: 'Roboto';
     color: white;
@@ -27,7 +42,7 @@ body{
 /* Configurações do Header */
 
 header{
-    background-color: rgba(0, 0, 0);
+    background-color:#9a031e80;
     text-align: center;
     width: 100%;
 }
@@ -35,7 +50,7 @@ header{
 /* Configurações da Navbar */
 
 nav{
-    background-color: rgb(255, 255, 255, 0.5);
+    background-color: #edd382;
     margin: auto;
     text-align: left;
     background-size: contain;
@@ -46,14 +61,16 @@ nav{
 /* Configurações do Footer */
 
 footer{
-    margin-top: 750px;
+    background-color: #EDD382;
+    color:#000000;
+    margin-top: 816px;
     bottom: 0px;
 }
 
 /* Configurações do main */
 
 main{
-    background-color: rgb(0, 0, 0, 0.25);
+    background-color: #5c667280;
     border-radius: 24px;
     margin-left: auto;
     margin-right: auto;
@@ -70,8 +87,9 @@ p{
 /* Configurações das imagens */
 
 img{
-    background-color: rgb(255, 255, 255, 0.5);
+    background-color: #8A817C;
     padding: 4px;
+    border-radius: 24px;
 }
 
 /* Configurações de hyperlinks de texto */
