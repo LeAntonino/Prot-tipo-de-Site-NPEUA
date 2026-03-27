@@ -47,7 +47,7 @@ body{
 /* Configurações do Header */
 
 header{
-    background-image: linear-gradient(to bottom, #9A031E, #000000);
+    background-image: linear-gradient(to bottom, #9A031E, #33031e);
     text-align: center;
     width: 100%;
     padding-bottom: 8px;
