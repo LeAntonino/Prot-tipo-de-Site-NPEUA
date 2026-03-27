@@ -62,7 +62,9 @@ nav{
     text-align: left;
     background-size: contain;
     width: 90%;
-    padding: 4px;
+    padding: 12px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
 }
 
 /* Configurações do Footer */
@@ -105,10 +107,12 @@ img{
     color:rgb(0, 0, 0);
     text-decoration: none;
     margin-right: 16px;
+    padding: 8px;
 }
 .hypertexto:hover{
+    background-color: #5C6672;
+    border-radius: 24px;
     color:rgb(0, 0, 0);
-    font-weight: bold;
-    text-decoration: underline;
+    transition-duration: .2s;
 }
 
