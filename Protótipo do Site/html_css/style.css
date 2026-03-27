@@ -47,9 +47,11 @@ body{
 /* Configurações do Header */
 
 header{
-    background-color:#9a031e80;
+    background-image: linear-gradient(to bottom, #9A031E, #000000);
     text-align: center;
     width: 100%;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 /* Configurações da Navbar */
