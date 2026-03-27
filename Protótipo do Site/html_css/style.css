@@ -25,7 +25,9 @@ min-height: 100%;
 /* Configurações Globais */
 
 *{
-
+    font-family: 'Roboto';
+    color: white;
+    text-align: center;
 }
 
 /* Configurações dos títulos h1 */
@@ -39,9 +41,6 @@ h1{
 body{
     background-image: linear-gradient(to bottom, #000000 , #8A817C);
     background-size: contain;
-    font-family: 'Roboto';
-    color: white;
-    text-align: center;
     margin: auto;
 }
 
