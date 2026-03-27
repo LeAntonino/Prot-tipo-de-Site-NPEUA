@@ -52,6 +52,7 @@ header{
     width: 100%;
     padding-bottom: 8px;
     margin-bottom: 8px;
+    border-radius: 0px 0px 24px 24px;
 }
 
 /* Configurações da Navbar */
@@ -63,8 +64,7 @@ nav{
     background-size: contain;
     width: 90%;
     padding: 12px;
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
+    border-radius: 0px 0px 24px 24px;
 }
 
 /* Configurações do Footer */
@@ -84,6 +84,7 @@ main{
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+    padding: 4px;
 }
 
 /* Configurações dos parágrafos */
@@ -92,6 +93,8 @@ p{
     display:inline-block;
     text-align: center;
     line-height: 1.5em;
+    margin: 15px 0px;
+    max-width: 90%;
 }
 
 /* Configurações das imagens */
