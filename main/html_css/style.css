@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Roboto;
+    src: url('fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf');
+}
+*{
+min-height: 100%;
+}
+
+
+
+/* Variáveis root */
+:root {
+
+/* Paleta de Cores */
+    --cor0: #000000;
+    --cor1: #9A031E;
+    --cor2: #EDD382;
+    --cor3: #5C6672;
+    --cor4: #8A817C;
+
+    --fonte-padrão: 'Roboto'
+}
+
+/* Configurações Globais */
+
+*{
+    font-family: 'Roboto';
+    color: white;
+    text-align: center;
+}
+
+/* Configurações dos títulos h1 */
+
+h1{
+    font-size: 32px;
+}
+
+/* Configurações do corpo */
+
+body{
+    background-image: linear-gradient(to bottom, #000000 , #8A817C);
+    background-size: contain;
+    margin: auto;
+}
+
+/* Configurações do Header */
+
+header{
+    background-image: linear-gradient(to bottom, #9A031E, #33031e);
+    text-align: center;
+    width: 100%;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-radius: 0px 0px 24px 24px;
+}
+
+/* Configurações da Navbar */
+
+nav{
+    background-color: #edd382;
+    margin: auto;
+    text-align: left;
+    background-size: contain;
+    width: 90%;
+    padding: 12px;
+    border-radius: 0px 0px 24px 24px;
+}
+
+/* Configurações do Footer */
+
+footer{
+    background-color: #EDD382;
+    color:#000000;
+    margin-top: 816px;
+    bottom: 0px;
+}
+
+/* Configurações do main */
+
+main{
+    background-color: #5c667280;
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 4px;
+}
+
+/* Configurações dos parágrafos */
+
+p{
+    display:inline-block;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 15px 0px;
+    max-width: 90%;
+}
+
+/* Configurações das imagens */
+
+img{
+    background-color: #8A817C;
+    padding: 4px;
+    border-radius: 24px;
+}
+
+/* Configurações de hyperlinks de texto na Nav*/
+
+nav > .hypertexto{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 24px;
+    margin-right: 16px;
+    padding: 8px;
+}
+nav > .hypertexto:hover{
+    background-color: #5C6672;
+    color:rgb(0, 0, 0);
+    transition-duration: .2s;
+}
+
