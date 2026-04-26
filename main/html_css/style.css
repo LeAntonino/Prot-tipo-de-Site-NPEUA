@@ -79,7 +79,7 @@ footer{
 /* Configurações do main */
 
 main{
-    background-color: #5c667280;
+    background-image: url('imagens/background.png');
     border-radius: 24px;
     margin-left: auto;
     margin-right: auto;
@@ -120,3 +120,13 @@ nav > .hypertexto:hover{
     transition-duration: .2s;
 }
 
+/* Configurações de background*/
+
+div.background{
+    background-image: url('imagens/background.png');
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 4px;
+}
