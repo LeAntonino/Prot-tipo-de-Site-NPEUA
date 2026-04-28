@@ -81,6 +81,8 @@ footer{
 main{
     background-image: url('imagens/background.png');
     background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     border-radius: 24px;
     margin-left: auto;
@@ -127,6 +129,8 @@ nav > .hypertexto:hover{
 div.background{
     background-image: url('imagens/background.png');
     background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     border-radius: 24px;
     margin-left: auto;
