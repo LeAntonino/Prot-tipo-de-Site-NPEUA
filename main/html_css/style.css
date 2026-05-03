@@ -26,6 +26,7 @@ min-height: 100%;
 
 *{
     font-family: 'Roboto';
+    font-size: 1vw;
     color: white;
     text-align: center;
 }
@@ -33,7 +34,7 @@ min-height: 100%;
 /* Configurações dos títulos h1 */
 
 h1{
-    font-size: 32px;
+    font-size: 1.5vw;
 }
 
 /* Configurações do corpo */
