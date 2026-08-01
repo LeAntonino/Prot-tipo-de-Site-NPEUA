@@ -102,6 +102,19 @@ p{
     max-width: 90%;
 }
 
+
+/* Configurações do player de áudio */
+
+audio{
+
+    height: 50px;
+    width: 350px;
+    border-radius: 24px;
+    overflow: hidden; 
+    margin: 2px;
+    background-color: lab(54.62% 2.48 3.92 / 0.5);
+}
+
 /* Configurações das imagens */
 
 img{
